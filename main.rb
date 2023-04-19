@@ -1,4 +1,11 @@
-require './teacher'
+require './person'
+require './capitalize_decorator'
+require './trim_decorator'
 
-pers = Teacher.new('juan', '16', 'math')
-puts pers.can_use_services?
+
+person = Person.new(22, 'maximilianus')
+  puts person.correct_name
+  capitalizedPerson = CapitalizeDecorator.new(person)
+  puts capitalizedPerson.correct_name
+  capitalizedTrimmedPerson = TrimmerDecorator.new(capitalizedPerson)
+  puts  capitalizedTrimmedPerson.correct_name
