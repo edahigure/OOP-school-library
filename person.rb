@@ -1,9 +1,8 @@
 require './nameable'
-
+# base class for student and teache
 class Person < Nameable
-  attr_reader :id
+  attr_reader :id, :rentals
   attr_accessor :name, :age
-  attr_reader :rentals
 
   def initialize(age, name = 'unknown', parent_permission: true)
     @id = rand(1...1000)
