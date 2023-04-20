@@ -107,12 +107,9 @@ no need for deplyyment
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Project 2: use the "Decorator" design pattern.
-- Project 3: set up associations.
-- Project 4: add basic UI.
-- Project 5: refactor your code.
-- Project 6: preserve data.
-- Project 7: unit tests.
+- refactor.
+- preserve data.
+- unit tests.
 
 
 
